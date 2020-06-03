@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+		<title>AdMaster</title>
+		<style type="text/css">
+			#navDiv{
+				display: flex;
+				height: 50px;
+				justify-content: space-around;
+				align-items: center;
+				width: 45%;
+			}
+			#navDiv button{
+				color: #666;
+				font-size: 1.2em;
+				font-weight: bold;
+			}
+			#ImgD-1,#ImgD-2,#ImgD-3{
+				display: inline-block;
+			}
+			.Z-1{
+				font-size: 1.3em;
+				font-weight: 700;
+			}
+			
+			@media only screen and (max-width:1100px) {
+				#navDiv button {
+					text-align: center;
+					width: 80px;
+					padding: 4px;
+					font-size: 1em;
+				}
+				#navDiv{
+					width:50%;
+				}
+			}
+			@media only screen and (max-width:900px) {
+				#navDiv button {
+					text-align: center;
+					width: 70px;
+					padding: 4px;
+					font-size: 0.9em;
+				}
+				#navDiv{
+					width:65%;
+				}
+			}
+			@media only screen and (max-width:620px) {
+				#navDiv button {
+					text-align: center;
+					width: 60px;
+					padding: 4px;
+					font-size: 0.8em;
+				}
+				#navDiv{
+					width:75%;
+				}
+			}
+			@media only screen and (max-width:480px) {
+				#navDiv button {
+					text-align: center;
+					width: 53px;
+					padding: 4px;
+					font-size: 0.7em;
+				}
+				#navDiv{
+					width:90%;
+				}
+			}
+			#btn-1{
+				background: #000000;
+			}
+			#div-1,#div-2,#div-3,#div-4,#div-5,#div-6{
+				display: inline-block;
+			}
+			.Z-2{
+				font-size: 1.4em;
+				font-weight: bold;
+				text-align: center;
+			}
+			#btn-2{
+				margin-bottom: 20px;
+				background: #000000;
+			}
+                #footId{
+				width: 100%;
+				height: 80px;
+				background-color:#000000;
+				position: relative;
+				
+			}
+			#footId p{
+				color: #fff;
+				line-height: 71px;
+			}
+
+		</style>
+		<link rel="stylesheet" href="Admaster/css/bootstrap.css" />
+	</head>
+	
+	<body>
+		<header>
+			<h2 style="font-weight: 700;" class="text-center">AdMaster</h2>
+			<nav class="navbar navbar-inverse text-center">
+			<div class="container" id="navDiv">
+            <button type="button" class="btn btn-default btn-xs">Home</button>
+            <button type="button" class="btn btn-default btn-xs">solution</button>
+            <button type="button" class="btn btn-default btn-xs">Market</button>
+            <button type="button" class="btn btn-default btn-xs">College</button>
+            <button type="button" class="btn btn-default btn-xs">About Us</button>
+            </div>
+            </nav>
+		</header>
+		
+			<div class="text-center">
+				<img src="Admaster/img/pic01.jpg" class="img-responsive center-block"
+				style="margin-bottom: 80px;"/>
+			</div>
+			
+			<div class="text-center">
+			<div id="ImgD-1" class="col-md-4">
+			<img src="Admaster/img/2.jpg"/>
+			<p class="Z-1">Ipsun consequat</p>
+			<p>One spring day some naughty boys were playing <br />
+			   near a pond. They began to throw<br />
+			   stones into the water.
+			</p>
+			</div>
+			<div id="ImgD-2" class="col-md-4">
+				<img src="Admaster/img/3.jpg"/>
+				<p class="Z-1">Magna etiam dolor</p>
+			    <p>The lion and the bear both saw the fox, but they<br />
+			       The lion said to the bear, “We have <br />
+			       fought for nothing.
+			</div>
+			<div id="ImgD-3" class="col-md-4">
+				<img src="Admaster/img/4.jpg"/>
+				<p class="Z-1">Tempus adipiscing</p>
+			    <p> them got very tired and could no longer fight.<br />
+			        fought long and fiercely. At last both<br />
+			        A fox who hid himself
+			</div>
+			</div>
+			
+            <div id="btnId" class="text-center" style="position: relative; top: 30px;">
+            	<button id="btn-1" type="button" class="btn btn-danger" >Get Started</button>
+            	<button id="btn-1" type="button" class="btn btn-danger" >Learn More</button>
+            </div>
+            
+            <h2 class="text-center" style="margin-top: 70px; margin-bottom: 50px; font-weight: 700;">My portfolio</h2>
+            
+            <div id="Boss" class="text-center" ">
+            	<div id="div-1" class="col-md-4">
+            		<img src="Admaster/img/pic02.jpg" class="img-responsive center-block"/>
+            		<p class="Z-2">Ipsun feuglat et dolor</p>
+            		<p>
+                         Lorem ipsum dolor sit amet sit
+                         veroeros sed amet blandit consequat
+                         veroeros lorem blandit adipiscing et feugiat
+                         phasellus tempus dolore ipsum lorem dolore.
+            		</p>
+            		<button id="btn-2" type="button" class="btn btn-danger" >Find out more</button>
+            	</div>
+            	    
+            	<div id="div-2" class="col-md-4">
+            		<img src="Admaster/img/pic03.jpg" class="img-responsive center-block"/>
+            		<p class="Z-2">Sed etiam lorem nulla</p>
+            		<p>
+            			Start your own cloud hosting business in minutes Simple
+            			interface fully equipped with all what you need Compete
+            			with Digital Ocean and other cloud giants...
+            		</p>
+            		<button id="btn-2" type="button" class="btn btn-danger" >Find out more</button>
+            	</div>
+            	
+            	<div id="div-3" class="col-md-4">
+            		<img src="Admaster/img/pic04.jpg" class="img-responsive center-block"/>
+            		<p class="Z-2">Consequat et tempus</p>
+            		<p>
+            			Sell your cloud management pane new IaaS cloud hosting
+            			veroeros cloud management pane sed amet blandit consequat
+            			veroeros lorem blandit SaaS cloud management panel.
+            		</p>
+            		<button id="btn-2" type="button" class="btn btn-danger" >Find out more</button>
+            	</div>
+            	
+            	<div id="div-4" class="col-md-4" class="text-center">
+            		<img src="Admaster/img/pic05.jpg" class="img-responsive center-block"/>
+            		<p class="Z-2" >Blandit sed adipiscing</p>
+            		<p>
+            			Register a totally free account
+            			with all features enabled. or
+            		    choose one of the available 
+            		    pre-paid packages...
+            		</p>
+            		<button id="btn-2" type="button" class="btn btn-danger" >Find out more</button>
+            	</div>
+            	
+            	<div id="div-5" class="col-md-4">
+            		<img src="Admaster/img/pic06.jpg" class="img-responsive center-block"/>
+            		<p class="Z-2" >Etiam nisl consequat</p>
+            		<p>
+            			Install Sadeem agent on your servers using our automated
+            			installation script, its only one Line which you need to run.
+            		</p>
+            		<button id="btn-2" type="button" class="btn btn-danger" >Find out more</button>
+            	</div>
+            	
+            	<div id="div-6" class="col-md-4">
+            		<img src="Admaster/img/pic07.jpg" class="img-responsive center-block"/>
+            		<p class="Z-2" >Dolore nisl feugiat</p>
+            		<p>
+            			Create your service offer packages and set the prices of extra
+            			bandwidth usage,you can also create coupons to help you ...
+            		</p>
+            		<button id="btn-2" type="button" class="btn btn-danger" >Find out more</button>
+            	</div>
+            </div>
+				<p class="text-center">Copyright &copy 2018.Company name All rights reserved.</p>
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="Admaster/js/bootstrap.js" ></script>
+	</body>
+</html>
